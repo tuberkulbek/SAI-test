@@ -1,0 +1,106 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  overflow: auto;
+  width: 700px;
+  height: 400px;
+  position: relative;
+  overflow-y: auto;
+}
+
+.head {
+  height: 48px;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: #F3F3F3;
+}
+
+.head_th {
+  background-color: #F3F3F3;
+}
+
+.head_th div {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+tr, td {
+  height: 50px;
+}
+table {
+  width: 1200px;
+  border-collapse:collapse
+}
+
+.first_column {
+  position: sticky;
+  left: 0;
+  z-index: 999;
+}
+
+.head tr th:first-child {
+  position: sticky;
+  left: 0;
+}
+
+tbody tr:nth-child(odd){
+	background: white;
+}
+tbody tr:nth-child(even){
+	background: #F9FAFA;
+}
+
+tbody td:nth-child(odd){
+	background: inherit;
+}
+tbody td:nth-child(even){
+	background: inherit;
+}
+
+.modal {
+  height: 94px;
+  z-index: 9;
+  top: 12.5%;
+  position: absolute;
+  background-color: white;
+}
+
+.modal input{
+  height: 48px;
+  width: 98.5%;
+  border: none;
+}
+
+.brand {
+  z-index: 9999;
+  width: 138px;
+}
+
+.articul {
+  width: 276px;
+  left: 138px
+}
+
+.name {
+  width: 440px;
+  left: 417px
+}
+
+.price {
+  left: 857px;
+  width: 120px;
+}
+
+.available {
+  left: 974px;
+  width: 222px;
+}
+
